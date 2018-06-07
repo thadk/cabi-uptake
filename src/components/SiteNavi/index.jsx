@@ -9,7 +9,7 @@ class SiteNavi extends React.Component {
         <div className="container">
           <Link className="text-center" to="/">
             <h1 className="navbar-brand mb-0 d-none d-md-block">{title}</h1>
-            <h1 className="navbar-brand d-none d-sm-block d-md-none">FRI SILT</h1>
+            <h1 className="navbar-brand d-md-none">FRI SILT</h1>
           </Link>
           <div className="navbar-nav-scroll float-right mr-md-2">
             <ul className="navbar-nav bd-navbar-nav flex-row  float-right">
