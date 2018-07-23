@@ -1,11 +1,11 @@
 module.exports = {
   siteMetadata: {
-    title: 'Scaling Up Improved Legume Technologies - Interactive Map',
-    short_title: 'SILT Interactive Map',    
-    description: 'Map for Legume Technologies in Tanzania with CABI and Farm Radio International',
-    siteUrl: 'https://fri-silt.netlify.com',
-    author: 'Farm Radio International',
-    twitter: 'farmradio',
+    title: 'Upscaling Technologies in Agriculture through Knowledge Extension',
+    short_title: 'UPTAKE Interactive Map',
+    description: 'Map for farming Technologies in Tanzania with CABI',
+    siteUrl: 'https://cabi-uptake.netlify.com',
+    author: 'CABI',
+    twitter: 'CABI_News',
     adsense: '',
   },
   pathPrefix: '/',
@@ -46,7 +46,8 @@ module.exports = {
       options: {
         name: 'Scaling Up Improved Legume Technologies - Interactive Map',
         short_name: 'SILT Interactive Map',
-        description: 'Map for Legume Technologies in Tanzania with CABI and Farm Radio International',
+        description:
+          'Map for Legume Technologies in Tanzania with CABI and Farm Radio International',
         homepage_url: 'https://fri-silt.netlify.com',
         start_url: '/',
         background_color: '#fff',
