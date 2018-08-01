@@ -1,6 +1,7 @@
 module.exports = {
   siteMetadata: {
-    title: 'Upscaling Technologies in Agriculture through Knowledge Extension',
+    // Upscaling Technologies in Agriculture through Knowledge Extension
+    title: 'CABI UPTAKE',
     short_title: 'UPTAKE Interactive Map',
     description: 'Map for farming Technologies in Tanzania with CABI',
     siteUrl: 'https://cabi-uptake.netlify.com',
