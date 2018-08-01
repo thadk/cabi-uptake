@@ -18,8 +18,8 @@ class SiteNavi extends React.Component {
                   location.pathname === '/' ? 'nav-item active' : 'nav-item'
                 }
               >
-                <Link to="/" className="nav-link"><i class="fa fa-book"></i>&nbsp;
-                  Home
+                <Link to="/" className="nav-link">
+                  <i class="fa fa-book" />&nbsp; Home
                 </Link>
               </li>
               <li
@@ -29,8 +29,19 @@ class SiteNavi extends React.Component {
                     : 'nav-item'
                 }
               >
-                <Link to="/explore/" className="nav-link"><i class="fa fa-map-marker"></i>&nbsp;
-                  Explore
+                <Link to="/explore/" className="nav-link">
+                  <i class="fa fa-map-marker" />&nbsp; Explore
+                </Link>
+              </li>
+              <li
+                className={
+                  location.pathname === '/maize/'
+                    ? 'nav-item active'
+                    : 'nav-item'
+                }
+              >
+                <Link to="/maize/" className="nav-link">
+                  <i class="fa fa-newspaper-o" />&nbsp; Maize Story
                 </Link>
               </li>
             </ul>

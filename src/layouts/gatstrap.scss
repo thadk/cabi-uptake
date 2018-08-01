@@ -70,6 +70,10 @@ body {
   -webkit-font-smoothing: antialiased;
 }
 
+nav.navbar.navbar-expand.navbar-dark.flex-column.flex-md-row.bg-primary {
+  height: 2.5rem;
+}
+
 p {
   font-size: 16px;
   line-height: 1.5;
