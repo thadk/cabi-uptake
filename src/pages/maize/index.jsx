@@ -12,7 +12,7 @@ class Profile extends React.Component {
           width="100%"
           height="850"
           frameBorder="0"
-          src="https://uploads.knightlab.com/storymapjs/6bca96d48bde1e37b34dcf8e8f2e5709/cabi-maize/index.html"
+          src="https://uploads.knightlab.com/storymapjs/1539e76e9602ff2d3f624d963161c708/uptake-maize/index.html"
           allowFullScreen
           webkitallowfullscreen="true"
           mozallowfullscreen="true"
