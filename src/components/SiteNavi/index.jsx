@@ -44,11 +44,9 @@ class SiteNavi extends React.Component {
                   <i class="fa fa-newspaper-o" />&nbsp; Maize Story
                 </Link>
               </li>
-              <li className="nav-item  mb-0 d-none d-lg-block">
-                <a href="https://cabi-gala.netlify.com/" className="nav-link">
-                  <i class="fa fa-link" />&nbsp; ASHC GH
-                </a>
-              </li>
+              <Link to="/maize-explore/" className="nav-link">
+                <i class="fa fa-map-marker" />&nbsp; Maize Explore
+              </Link>
               <li className="nav-item  mb-0 d-none d-lg-block">
                 <a href="https://cabi-silt.netlify.com/" className="nav-link">
                   <i class="fa fa-link" />&nbsp; SILT TZ
