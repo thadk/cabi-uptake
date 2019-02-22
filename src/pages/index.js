@@ -50,7 +50,7 @@ class BlogIndex extends React.Component {
           src="https://uploads.knightlab.com/storymapjs/1539e76e9602ff2d3f624d963161c708/cabi-uptake-tz/index.html"
           frameBorder="0"
           width="100%"
-          height="850"
+          height="790"
         />
         {pageLinks}
       </div>

@@ -10,7 +10,7 @@ class Profile extends React.Component {
       <div>
         <iframe
           width="100%"
-          height="850"
+          height="790"
           frameBorder="0"
           src="https://thadk.carto.com/builder/ff08228a-c68e-46a7-a286-2877e51c0027/embed"
           allowFullScreen

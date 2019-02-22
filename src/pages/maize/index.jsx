@@ -10,7 +10,7 @@ class Profile extends React.Component {
       <div>
         <iframe
           width="100%"
-          height="850"
+          height="790"
           frameBorder="0"
           src="https://uploads.knightlab.com/storymapjs/1539e76e9602ff2d3f624d963161c708/uptake-maize/index.html"
           allowFullScreen
