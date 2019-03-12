@@ -57,7 +57,7 @@ class SiteNavi extends React.Component {
                   href="http://africasoilhealth.cabi.org/tools/communication-tools/"
                   className="nav-link"
                 >
-                  <i class="fa fa-link" />&nbsp; Back to CABI Site
+                  <i class="fa fa-link" />&nbsp; CABI
                 </a>
               </li>
             </ul>
