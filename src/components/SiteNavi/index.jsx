@@ -40,19 +40,41 @@ class SiteNavi extends React.Component {
                     : 'nav-item'
                 }
               >
-                <Link to="/maize/" className="nav-link">
+                <Link to="/maize/" className="mb-0 d-none d-lg-block nav-link">
                   <i class="fa fa-newspaper-o" />&nbsp; Maize Story
                 </Link>
+                <Link to="/maize/" className="nav-link d-lg-none">
+                  <i class="fa fa-newspaper-o" />&nbsp; Maize
+                </Link>
               </li>
-              <Link to="/maize-explore/" className="nav-link">
-                <i class="fa fa-map-marker" />&nbsp; Maize Explore
-              </Link>
-              <li className="nav-item  mb-0 d-none d-lg-block">
+              <li
+                className={
+                  location.pathname === '/maize-explore/'
+                    ? 'nav-item active'
+                    : 'nav-item'
+                }
+              >
+                <Link
+                  to="/maize-explore/"
+                  className="mb-0 d-none d-md-block d-sm-block d-lg-block nav-link"
+                >
+                  <i class="fa fa-map-marker" />&nbsp; Maize Explore
+                </Link>
+                <Link to="/maize-explore/" className="nav-link d-sm-none">
+                  <i class="fa fa-map-marker" />&nbsp; Explore
+                </Link>
+              </li>
+              <li className="nav-item  mb-0 d-none d-xl-block">
                 <a href="https://cabi-silt.netlify.com/" className="nav-link">
-                  <i class="fa fa-link" />&nbsp; Jump to SILT TZ
+                  <i class="fa fa-link" />&nbsp; Jump to SILT
                 </a>
               </li>
-              <li className="nav-item  mb-0 d-none d-lg-block">
+              <li className="nav-item  mb-0 d-none d-lg-block d-xl-none">
+                <a href="https://cabi-silt.netlify.com/" className="nav-link">
+                  <i class="fa fa-link" />&nbsp; SILT
+                </a>
+              </li>
+              <li className="nav-item">
                 <a
                   href="http://africasoilhealth.cabi.org/tools/communication-tools/"
                   className="nav-link"
