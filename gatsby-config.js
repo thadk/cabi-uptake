@@ -70,8 +70,10 @@ module.exports = {
     },
     {
       resolve: 'gatsby-plugin-google-analytics',
+      //setup by tdk as CABIMaps on 15 mar 2019
+
       options: {
-        trackingId: 'UA-40444881-2',
+        trackingId: 'UA-136333159-1',
       },
     },
     {
